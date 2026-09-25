@@ -13,4 +13,12 @@ class Usuario {
   String obterStatus() {
     return online ? 'online' : 'offline';
   }
+
+  int _advertencias = 0;
+
+  int get advertencias => _advertencias;
+
+  void advertir() {
+    _advertencias++;
+  }
 }
