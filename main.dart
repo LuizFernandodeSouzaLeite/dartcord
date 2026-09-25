@@ -1,5 +1,5 @@
 import 'dart:io';
-import 'exercicios/desafio_fina.dart';
+import 'exercicios/exercicio_final.dart';
 
 void main() {
   int opcao = -1;
