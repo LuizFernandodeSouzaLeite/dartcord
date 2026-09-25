@@ -1,8 +1,8 @@
-import '../models/usuario.dart';
-import '../models/moderador.dart';
-import '../models/mensagem.dart';
-import '../models/canal.dart';
-import '../models/conteudo.dart';
+import 'models/usuario.dart';
+import 'models/moderador.dart';
+import 'models/mensagem.dart';
+import 'models/canal.dart';
+import 'models/conteudo.dart';
 
 void gerarRelatorio() {
   final usuario = Usuario(nome: 'Pedro', apelido: 'PG', online: true);
